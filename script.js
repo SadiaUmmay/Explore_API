@@ -7,14 +7,14 @@ const loadData = ()=>{
     .then((data) => console.log(data))
     
 }
-const loadPost=()=>{
-    const url = 'https://jsonplaceholder.typicode.com/posts';
-    fetch(url)
-    .then((response)=> response.json())
-    .then((post)=> displayPost(post))
-};
-const displayPost =(posts)=>{
-    posts.forEach((post) => {
-        console.log(post)
-    });
-}
+// const loadPost=()=>{
+//     const url = 'https://jsonplaceholder.typicode.com/posts';
+//     fetch(url)
+//     .then((response)=> response.json())
+//     .then((post)=> displayPost(post))
+// };
+// const displayPost =(posts)=>{
+//     posts.forEach((post) => {
+//         console.log(post)
+//     });
+// }
